@@ -5,3 +5,7 @@ const servicos = [
     {id_servico:4, nome_servico:"Raio-x"},
     {id_servico:5, nome_servico:"Eletrocardiograma"},
 ]
+
+export const Servicos =  function(){
+    return servicos;
+}

@@ -10,3 +10,7 @@ const agendamentos = [
     {id_agendamento:9, data:"08/04/2025", hora:"11:30", nome_cliente:"Carlos Pereira", nome_profissional:"Salomao Abreu"},
     {id_agendamento:10, data:"08/04/2025", hora:"09:30", nome_cliente:"Matias Albuquerque", nome_profissional:"Marina Aguiar"},
 ]
+
+export const Agendamentos =  function(){
+    return agendamentos;
+}
