@@ -9,7 +9,7 @@ export default function HomeScreen() {
     <View style={styles.container}>
       <View style={{flexDirection:'row', marginBottom: 20, backgroundColor:'red', padding: 20}}>
        <View style={{width:'33%'}}>
-        <Link href="/agendamentos">
+        <Link href="/agendamentos" asChild>
         <Text style={{color:'white'}}>
           Agendamentos
         </Text>
@@ -25,7 +25,7 @@ export default function HomeScreen() {
       </Link>
       </View>
       <View style={{width:'33%'}}>
-        <Link href="/usuarios">
+        <Link href="/usuarios" asChild>
         <Text style={{color:'white'}}>
           Usuarios
         </Text>
